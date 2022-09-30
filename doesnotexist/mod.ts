@@ -8,7 +8,7 @@ const URLS: Record<string, string> = {
   "art": "https://thisartworkdoesnotexist.com",
 };
 
-const doesNotExist: Module = {
+export default <Module> {
   name: "doesnotexist",
   handlers: [
     new CommandHandler(
@@ -43,5 +43,3 @@ const doesNotExist: Module = {
   help:
     `>doesnotexist <type> - Get a random image of a person, cat, horse, or artwork that doesn't exist`,
 };
-
-export default doesNotExist;
