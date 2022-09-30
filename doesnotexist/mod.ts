@@ -40,6 +40,8 @@ const doesNotExist: Module = {
       },
     ),
   ],
+  help:
+    `>doesnotexist <type> - Get a random image of a person, cat, horse, or artwork that doesn't exist`,
 };
 
 export default doesNotExist;
