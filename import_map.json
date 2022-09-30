@@ -1,0 +1,8 @@
+{
+  "imports": {
+    "$xor": "https://raw.githubusercontent.com/xorgram/xor/main/xor.ts",
+    "$grm": "https://deno.land/x/grm@v0.3.0/mod.ts",
+    "$grm-deps": "https://deno.land/x/grm@v0.3.0/deps.ts",
+    "std/": "https://deno.land/std@0.158.0/"
+  }
+}
