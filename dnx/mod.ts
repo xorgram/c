@@ -12,7 +12,7 @@ export default <Module> {
   name: "dnx",
   handlers: [
     new CommandHandler(
-      "doesnotexist",
+      "dnx",
       async ({ args, event, client }) => {
         if (args.length > 0) {
           await updateMessage(
