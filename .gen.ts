@@ -28,9 +28,9 @@ for (const [k, v] of Object.entries(modules)) {
 
 await Deno.writeTextFile(
   "README.md",
-  `# Xor Modules Directory
+  `# Xor Community Plugins Directory
 
-> Xor modules which are made by the team and can be trusted.
+> Xor modules which are made by the community and can be trusted.
 
 ## Index
 
