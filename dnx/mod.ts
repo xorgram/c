@@ -1,4 +1,5 @@
 import { CommandHandler, Module, updateMessage } from "$xor";
+import { Buffer } from "std/streams/mod.ts";
 import { CustomFile } from "$grm";
 
 const URLS: Record<string, string> = {
@@ -36,7 +37,7 @@ export default <Module> {
           "temp.jpg",
           buffer.byteLength,
           "",
-          Buffer.from(buffer),
+          new Buffer(buffer),
         );
         await client.sendFile(event.chatId!, {
           file,
