@@ -10,7 +10,7 @@ for (const [k, v] of Object.entries(modules)) {
 ## Installation
 
 \`\`\`text
-\\install https://raw.githubusercontent.com/xorgram/md/main/${k}/mod.ts
+\\install https://raw.githubusercontent.com/xorgram/cp/main/${k}/mod.ts
 \`\`\`
 
 ## Help
