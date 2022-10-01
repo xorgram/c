@@ -1,0 +1,8 @@
+{
+  "dnx": {
+    "description": "Get a random image of a person, cat, horse, or artwork that doesn't exist",
+    "authors": [
+      "ArnabXD"
+    ]
+  }
+}

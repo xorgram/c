@@ -9,7 +9,7 @@ const URLS: Record<string, string> = {
 };
 
 export default <Module> {
-  name: "doesnotexist",
+  name: "dnx",
   handlers: [
     new CommandHandler(
       "doesnotexist",
@@ -32,7 +32,12 @@ export default <Module> {
 
         event.message.delete();
         const buffer = await (await fetch(url)).arrayBuffer();
-        const file = new CustomFile("temp.jpg", buffer.byteLength, "", buffer);
+        const file = new CustomFile(
+          "temp.jpg",
+          buffer.byteLength,
+          "",
+          Buffer.from(buffer),
+        );
         await client.sendFile(event.chatId!, {
           file,
           forceDocument: false,
@@ -41,5 +46,5 @@ export default <Module> {
     ),
   ],
   help:
-    `>doesnotexist <type> - Get a random image of a person, cat, horse, or artwork that doesn't exist`,
+    "\\dnx <type> - Get a random image of a person, cat, horse, or artwork that doesn't exist",
 };
