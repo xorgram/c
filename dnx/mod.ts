@@ -14,7 +14,7 @@ export default <Module> {
     new CommandHandler(
       "dnx",
       async ({ args, event, client }) => {
-        if (args.length > 0) {
+        if (args.length < 0) {
           await updateMessage(
             event,
             "Select one of the following: \n" + Object.keys(URLS).join(", "),
