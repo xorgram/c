@@ -1,6 +1,12 @@
 {
   "dnx": {
-    "description": "Get a random image of a person, cat, horse, or artwork that doesn't exist",
+    "description": "Get an AI generated random image of a person, cat, horse, or artwork that doesn't exist in real life",
+    "authors": [
+      "ArnabXD"
+    ]
+  },
+  "httpcat": {
+    "description": "Get an image of a Cat explaining HTTP status code",
     "authors": [
       "ArnabXD"
     ]
