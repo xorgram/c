@@ -1,3 +1,6 @@
 {
-  "importMap": "./import_map.json"
+  "importMap": "./import_map.json",
+  "tasks": {
+    "gen": "deno run --allow-write .gen.ts"
+  }
 }
