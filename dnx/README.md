@@ -5,7 +5,7 @@
 ## Installation
 
 ```text
-\install https://raw.githubusercontent.com/xorgram/cp/main/dnx/mod.ts
+\install https://raw.githubusercontent.com/xorgram/c/main/dnx/mod.ts
 ```
 
 ## Help

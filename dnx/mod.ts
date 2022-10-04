@@ -1,5 +1,4 @@
 import { CommandHandler, Module, updateMessage } from "$xor";
-import { Buffer } from "std/streams/mod.ts";
 import { CustomFile } from "$grm";
 
 const URLS: Record<string, string> = {
@@ -36,8 +35,8 @@ export default <Module> {
         const file = new CustomFile(
           "temp.jpg",
           buffer.byteLength,
-          "",
-          new Buffer(buffer),
+          "", // @ts-expect-error - ArrayBuffer is not assignable to Buffer
+          buffer,
         );
         await client.sendFile(event.chatId!, {
           file,
