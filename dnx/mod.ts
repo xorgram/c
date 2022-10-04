@@ -46,5 +46,5 @@ export default <Module> {
     ),
   ],
   help:
-    "\\dnx <type> - Get a random image of a person, cat, horse, or artwork that doesn't exist",
+    "\\dnx <type> - Get an AI generated random image of a person, cat, horse, or artwork that doesn't exist in real life",
 };

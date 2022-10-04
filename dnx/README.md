@@ -1,6 +1,6 @@
 # dnx
 
-> Get a random image of a person, cat, horse, or artwork that doesn't exist
+> Get an AI generated random image of a person, cat, horse, or artwork that doesn't exist in real life
 
 ## Installation
 
